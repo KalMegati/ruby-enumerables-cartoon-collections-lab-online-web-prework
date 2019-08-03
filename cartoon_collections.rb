@@ -16,3 +16,5 @@ def find_the_cheese# code an argument here
 end
 
 quartet = "magic, madness, heaven, sin"
+
+p quartet[3]
