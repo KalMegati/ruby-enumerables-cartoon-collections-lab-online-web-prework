@@ -21,6 +21,7 @@ def find_the_cheese(fruit_and_cheese)
         true
       else
         counter += 1
+      end
     end  
   }
 end
