@@ -4,7 +4,7 @@ end
 
 
 def summon_captain_planet(kiai)
-  kiai.map { |memo| 
+  kiai.map { |memo| memo.
 end
 
 def long_planeteer_calls# code an argument here
