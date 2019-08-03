@@ -15,8 +15,12 @@ def find_the_cheese(fruit_and_cheese)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   fruit_and_cheese.detect { |memo|
-    memo == cheese_types[0] ||
-    memo == cheese_types[1] ||
-    memo == cheese_types[2]
+    counter = 0
+    while counter < cheese_types.length do
+      if memo = cheese_types[counter]
+        true
+      else
+        counter += 1
+    end  
   }
 end
