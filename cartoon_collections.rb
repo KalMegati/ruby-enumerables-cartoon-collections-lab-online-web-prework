@@ -8,7 +8,7 @@ def summon_captain_planet(kiai)
 end
 
 def long_planeteer_calls(kiai)
-  kiai.
+  kiai.any { |memo| memo.length >
 end
 
 def find_the_cheese# code an argument here
