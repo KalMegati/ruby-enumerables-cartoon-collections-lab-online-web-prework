@@ -2,6 +2,8 @@ def roll_call_dwarves(dwarves)
   dwarves.each_with_index { |memo, index| p (index.to_s + ". " + memo)}
 end
 
+
+
 def summon_captain_planet# code an argument here
   # Your code here
 end
