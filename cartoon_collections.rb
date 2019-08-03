@@ -1,5 +1,5 @@
-def roll_call_dwarves(dorfs)
-  dorfs
+def roll_call_dwarves(dwarves)
+  dwarves
 end
 
 def summon_captain_planet# code an argument here
