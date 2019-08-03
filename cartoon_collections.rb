@@ -19,7 +19,7 @@ def find_the_cheese(fruit_and_cheese)
     while counter < cheese_types.length do
       if memo = cheese_types[counter]
         true
-        counter += 1
+        break
       else
         counter += 1
       end
