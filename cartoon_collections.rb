@@ -15,6 +15,6 @@ def find_the_cheese(fruit_and_cheese)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   fruit_and_cheese.detect { |memo|
-    memo == cheese_types[0] ||
+    memo == (cheese_types[0] || cheese_types[1] || cheese_types[2])
   }
 end
