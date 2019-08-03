@@ -3,8 +3,8 @@ def roll_call_dwarves(dwarves)
 end
 
 
-def summon_captain_planet(planeteer_calls)
-  kiai.map
+def summon_captain_planet(kiai)
+  kiai.map { |memo| p 
 end
 
 def long_planeteer_calls# code an argument here
