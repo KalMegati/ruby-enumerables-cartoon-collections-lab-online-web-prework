@@ -17,4 +17,5 @@ def find_the_cheese(fruit_and_cheese)
   cheese_types.length.times { |index|
     fruit_and_cheese.detect { |memo| memo == cheese_types[index]}
   }
+  return memo
 end
